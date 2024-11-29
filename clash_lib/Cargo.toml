@@ -109,7 +109,7 @@ ring-compat = { version = "0.8", features = ["aead"] }
 rand = "0.8"
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter"] }
-tracing-oslog = { branch = "main", git = "https://github.com/Absolucy/tracing-oslog.git" }
+tracing-oslog = { branch = "enum", git = "https://github.com/aaronjheng/tracing-oslog.git" }
 tracing-appender = "0.2"
 
 shadowsocks = { version="1.21", optional = true, features=["aead-cipher-2022","stream-cipher"] }
